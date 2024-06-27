@@ -1,0 +1,17 @@
+# docker?? redis? ? ????? ????
+
+#redis? session ??
+#spring:
+#  session:
+#    storage-type: redis
+#  data:
+#    redis:
+#      host: localhost
+#      port: 6379
+
+
+spring:
+  data:
+    redis:
+      host: localhost
+      port: 6379
